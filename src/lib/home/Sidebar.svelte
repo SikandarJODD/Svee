@@ -7,11 +7,6 @@
       current: true,
     },
     {
-      name: "Simple Forms",
-      href: "/forms",
-      current: true,
-    },
-    {
       name: "Validations",
       href: "/forms",
       current: true,
@@ -219,9 +214,7 @@
 
   <main class="py-10 lg:pl-64 lg:py-6">
     <div class="px-4 sm:px-6 lg:px-8">
-      <div class="prose dark:prose-invert min-w-full">
-        <slot></slot>
-      </div>
+      <slot></slot>
     </div>
   </main>
 </div>
